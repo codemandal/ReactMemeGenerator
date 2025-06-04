@@ -1,12 +1,9 @@
-# React + Vite
+Meme Generator 🎨 A React-based meme generator built as part of the Scrimba Learn React course. This project allows users to create custom memes by selecting random images and adding personalized top and bottom text.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview This project serves as a practical application of React fundamentals, including state management, event handling, and form processing. Users can generate memes by fetching random images from an API and overlaying custom text.
 
-Currently, two official plugins are available:
+Features Fetches random meme images from an external API Allows users to input custom top and bottom text Displays the generated meme with overlaid text Responsive design for various screen sizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+What I Learned Managing component state with React's useState hook Handling form inputs and events in React Fetching data from APIs using fetch Conditional rendering based on state
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Acknowledgements Scrimba for the excellent React course Imgflip API for providing meme images
